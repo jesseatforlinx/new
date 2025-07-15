@@ -7,4 +7,59 @@
 {% endblock %}
 
 
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <style>
+    .pdf-download-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      margin-left: 12px;
+      background: linear-gradient(135deg, #2980b9, #3498db);
+      color: #fff;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: background 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .pdf-download-button:hover {
+      background: linear-gradient(135deg, #1c5980, #2980b9);
+      text-decoration: none;
+      color: white;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    }
+
+    .pdf-download-icon {
+      font-size: 16px;
+    }
+
+    @media (max-width: 768px) {
+      .pdf-download-button {
+        display: none;
+      }
+    }
+  </style>
+{% endblock %}
+
+{% block header %}
+  {{ super() }}
+  <div style="position: absolute; top: 12px; right: 16px; z-index: 999;">
+    {% set brand = pagename.split('/')[0] %}
+    {% set model = pagename.split('/')[1] %}
+    {% set pdf_name = project | lower | replace(" ", "_") + ".pdf" %}
+    <a class="pdf-download-button"
+       href="/pdfs/{{ brand }}/{{ model }}/{{ pdf_name }}"
+       target="_blank"
+       title="Download PDF documentation">
+      <span class="pdf-download-icon">⬇</span> Download PDF
+    </a>
+  </div>
+{% endblock %}
+
 

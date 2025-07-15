@@ -45,3 +45,5 @@ html_sidebars = {
         'footer.html',  # 👈 关键：显式加载我们自定义的 footer 模板
     ]
 }
+
+html_show_sourcelink = False

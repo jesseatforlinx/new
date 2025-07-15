@@ -2,15 +2,10 @@
 
 {% block extrahead %}
   {{ super() }}
+
   <!-- Load Font Awesome from CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-{% endblock %}
 
-
-{% extends "!layout.html" %}
-
-{% block extrahead %}
-  {{ super() }}
   <style>
     .pdf-download-button {
       display: inline-flex;
@@ -61,5 +56,3 @@
     </a>
   </div>
 {% endblock %}
-
-

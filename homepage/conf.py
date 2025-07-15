@@ -46,3 +46,4 @@ html_sidebars = {
     ]
 }
 
+html_show_sourcelink = False

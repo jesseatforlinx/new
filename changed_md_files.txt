@@ -1,1 +1,1 @@
-platform/nxp/imx8mp/OK-MX8MPQ-SMARC_User's Hardware Manual_V1.0.md
+platform/nxp/imx8mp/OK-MX8MPQ-SMARC_Hardware_Manual.md

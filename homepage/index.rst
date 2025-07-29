@@ -1,10 +1,12 @@
 Welcome to Forlinx Embedded Documentation
 ==========================================
 
+**Forlinx Embedded** is a trusted embedded solution provider specializing in the design and production of high-performance **System on Modules (SoMs)**, **Single Board Computers** and **Embedded Computers**. Our SoMs are widely used in industrial automation, smart transportation, energy, medical, and edge AI applications.
 
-Welcome to the official documentation of Forlinx Embedded, covering multiple mainstream processor platforms with detailed technical resources and development guides.
+This online documentation portal offers comprehensive technical resources to help developers quickly get started with our products.
 
-Brands and Platform Navigation
+
+Available Platforms
 ------------------------------
 
 Rockchip Series
@@ -35,16 +37,16 @@ Documentation Features
 
 
 Contact Us
------------
+----------
 
 If you have any questions, please contact us at:
 
-- Contact Sales: sales@forlinx.com
-- Technical Support: support@forlinx.com
-- Website: https://www.forlinx.net
+- **Contact Sales**: `sales@forlinx.com <mailto:sales@forlinx.com>`_
+- **Technical Support**: `support@forlinx.com <mailto:support@forlinx.com>`_
+- **Website**: `www.forlinx.net <https://www.forlinx.net>`_
 
 ----
 
-*Wish you smooth development and thank you for choosing Forlinx Embedded!*
+*Thank you for choosing Forlinx Embedded. We're committed to supporting your development journey.*
 
 ----

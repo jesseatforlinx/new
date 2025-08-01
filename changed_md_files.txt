@@ -1,1 +1,1 @@
-platform/nxp/imx8mp/uart.md
+platform/nxp/imx8mp/android11-compilation-manual.md

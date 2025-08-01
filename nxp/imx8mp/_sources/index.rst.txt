@@ -1,7 +1,7 @@
 
 .. note::
 
-   📌 Go to: **Documentation Homepage**: `Forlinx Documentation Main Page <https://forlinxembedded.github.io/>`_
+   📌 Go to: `Forlinx Documentation Homepage <https://forlinxembedded.github.io/>`_
 
    🔗 Product Page: `FET-MX8MPQ-SMARC System on Module <https://www.forlinx.net/product/imx8mpq-smarc-system-on-module-153.html>`_
 

@@ -1,42 +1,46 @@
 
 .. note::
 
-   📌 To return to the **main Forlinx documentation site**, visit: 
-     
-     `Forlinx Documentation Main Page <https://forlinxembedded.github.io/>`_
+   📌 Go to: **Documentation Homepage**: `Forlinx Documentation Main Page <https://forlinxembedded.github.io/>`_
 
-   🔗 Official product overview: 
-     
-     `FET-MX8MPQ-SMARC System on Module <https://www.forlinx.net/product/imx8mpq-smarc-system-on-module-153.html>`_
+   🔗 Product Page: `FET-MX8MPQ-SMARC System on Module <https://www.forlinx.net/product/imx8mpq-smarc-system-on-module-153.html>`_
 
      
-     `FET-MX8MP-C System on Module <https://www.forlinx.net/product/fetmx8mp-c-system-on-module-119.html>`_
-
 ====================
 i.MX 8M Plus Manuals
 ====================
 
-===============
-OKMX8MPQ-SMARC
-===============
 
 .. toctree::
-   :caption: OKMX8MPQ-SMARC Manual
+   :caption: Hardware
    :maxdepth: 2
 
-   OK-MX8MPQ-SMARC_Hardware_Manual
-   OK-MX8MPQ-SMARC_Linux_User_Manual
-   OK-MX8MPQ-SMARC_Linux_User_Compilation_Manual
-
-
-==========
-OKMX8MP-C
-==========
+   Hardware Manual <hardware>
+   Hardware Design Guide <hardware-design>
 
 .. toctree::
-   :caption: OKMX8MP-C Manual
+   :caption: Software
    :maxdepth: 2
 
+   Linux 5.15.1 User Manual <linux-manual>
+   Linux 5.15.1 Compilation Manual<linux-compilation-manual>
+   Linux 6.1.0 User Manual <linux6.1-user-manual>
+   Linux 5.15.1 Compilation Manual<linux6.1-compilation-manual>
+   Android 11 User Manual <android11-user-manual>
+   Android 11 Compilation Manual <android11-compilation-manual>
+
+.. toctree::
+   :caption: Application Notes
+   :maxdepth: 2
+
+   Kernel Configuration <kernel>
+   Wireless Network <wireless>
+   Boot Setup <boot-setup>
+   Display <display>
+   USB <usb>
+   Camera <camera>
+   EMMC <emmc>
+   UART <uart>
 
 
 ===========

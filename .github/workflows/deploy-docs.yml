@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: 
-          sudo apt install tox texlive-latex-extra texlive-xetex latexmk python3-pip -y
+          sudo apt install tox texlive-latex-extra texlive-xetex latexmk python3-pip fonts-freefont-ttf -y
           
 
       - name: Process Markdown Images

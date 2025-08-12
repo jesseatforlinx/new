@@ -22,14 +22,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install tox
-        run: pip install tox
+      - name: Install dependencies
+        run: 
+          sudo apt install tox texlive-latex-extra texlive-xetex latexmk python3-pip -y
 
       - name: Process Markdown Images
         run: tox -e process_md_images
         
       - name: Build HTML
-        run: tox -e build_docs
+        run: tox -e html
+
+      - name: Build PDF
+        run: tox -e pdf
             
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

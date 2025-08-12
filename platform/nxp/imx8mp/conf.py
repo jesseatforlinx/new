@@ -87,6 +87,8 @@ latex_elements = {
     \setcounter{tocdepth}{2}    % 目录层级
     \renewcommand{\thechapter}{}
 
+    \setmainfont{DejaVu Serif}
+
     % 定义封面所需的命令（如果您的文档类需要）
     \makeatletter
     \newcommand{\customtitle}{\@title}

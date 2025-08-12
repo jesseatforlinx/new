@@ -10,7 +10,7 @@ This module pairs with the OK-MX8MPQ-SMARC carrier board and connects to the mai
 
 It includes a wide range of functional interfaces and is widely utilized in various fields such as smart cities, industrial IoT, smart healthcare, and intelligent transportation, effectively meeting the diverse needs of multiple applications.
 
-### 1.2 i.MX8MP Series Processors！！
+### 1.2 i.MX8MP Series Processors！
 
 The i.MX 8M Plus series processors focus on machine learning, vision, advanced multimedia, and industrial automation, offering high reliability. They are designed to meet the needs of smart home, building, city, and Industry 4.0 applications.   
 

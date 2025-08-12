@@ -27,12 +27,12 @@ jobs:
 
       - name: Process Markdown Images
         run: tox -e process_md_images
-        env:
-          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
-          GITHUB_SHA: ${{ github.sha }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build and Deploy Docs
+        
+      - name: Build HTML
         run: tox -e build_docs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+           github_token: ${{ secrets.GITHUB_TOKEN }}
+           publish_dir: ./docs_build

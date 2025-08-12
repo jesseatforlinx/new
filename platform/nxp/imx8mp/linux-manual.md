@@ -1,6 +1,6 @@
 # OK-MX8MPQ-SMARC_Linux6.1.36_User's Manual_V1.0
 
-## 1. Development Board Description
+## 1. Development Board Description你好
 
 ### 1.1 OK-MX8MPQ-SMARC Development Board Description
 

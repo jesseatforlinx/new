@@ -1,6 +1,6 @@
 ﻿# OK-MX8MPQ-SMARC_User's Hardware Manual_V1.0
 
-## 1. Overview 必须改点啥
+## 1. Overview 必须改点啥啊！
 
 ### 1.1 SoM Function Description
 

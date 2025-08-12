@@ -11,8 +11,8 @@ for dir in platform/*/*; do
     sphinx-build -M latexpdf "$dir" "$dir/_build"
 
     # 找到生成的 PDF 并复制到 HTML 静态目录
-    mkdir -p "$outdir/_static"
-    cp "$dir/_build/latex"/*.pdf "$outdir/_static/"
-    echo "PDF copied to $outdir/_static"
+    mkdir -p "$outdir/aaa"
+    cp "$dir/_build/latex"/*.pdf "$outdir/aaa/"
+    echo "PDF copied to $outdir/aaa"
   fi
 done

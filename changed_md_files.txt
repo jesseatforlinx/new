@@ -1,1 +1,1 @@
-platform/nxp/imx8mp/linux-manual.md
+

@@ -73,7 +73,7 @@ False)
 ]
 
 latex_elements = {
-    'classoptions': ',openany',     % 关闭新章节仅在奇数页
+    'classoptions': ',openany',     # 关闭新章节仅在奇数页
     'preamble': r'''
 
     \usepackage{xeCJK}
@@ -99,7 +99,7 @@ latex_elements = {
     \begin{titlepage}
     \thispagestyle{empty}
 
-    % 定义颜色
+    % 定义封面蓝条颜色
     \definecolor{forlinxblue}{RGB}{0, 102, 178}
 
     \begin{tikzpicture}[remember picture, overlay]

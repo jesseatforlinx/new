@@ -84,7 +84,9 @@ latex_elements = {
     \usepackage{xcolor}
     \usepackage{geometry}   
 
-    \setmainfont{DejaVu Serif}  % 设置主字体
+    \setmainfont{DejaVu Serif}[
+  FallbackFonts = {Liberation Serif, Times New Roman}
+]
     \setCJKmainfont{SimSun}     % 中文或特殊字符字体
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
     

@@ -24,22 +24,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt install tox texlive-latex-extra texlive-xetex latexmk python3-pip fonts-freefont-ttf fonts-dejavu-core -y
-          echo "--- Updating font cache ---"
+          sudo apt install tox texlive-latex-extra texlive-xetex latexmk python3-pip fonts-freefont-ttf fonts-dejavu-core fonts-noto-cjk -y
           sudo fc-cache -fv
-
-          echo "--- [DEBUG] Verifying font installation ---"
-          # 檢查 FreeSerif 字體檔案是否存在
-          echo "Searching for FreeSerif.ttf file:"
-          find /usr/share/fonts -name "FreeSerif.ttf" || echo "FreeSerif.ttf file NOT FOUND"
-
-          # 使用 fc-list 檢查 fontconfig 是否識別了 FreeSerif
-          echo "Checking if 'FreeSerif' is recognized by fc-list:"
-          fc-list | grep -i "FreeSerif" || echo "FreeSerif NOT recognized by fc-list"
-
-          echo "Checking if 'DejaVu Serif' is recognized by fc-list:"
-          fc-list | grep -i "DejaVu Serif" || echo "DejaVu Serif NOT recognized by fc-list"
-          echo "--- [DEBUG] Font verification finished ---"
+          sudo luaotfload-tool --update --force
       
       - name: Check Fonts
         run: |

@@ -87,6 +87,9 @@ latex_elements = {
     \setmainfont{DejaVu Serif}
     \setsansfont{DejaVu Sans}
     \setmonofont{DejaVu Sans Mono}
+    % 設定中文字體
+    \setCJKmainfont{Noto Serif CJK SC}
+    \setCJKsansfont{Noto Sans CJK SC}
     
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
     

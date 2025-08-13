@@ -23,8 +23,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: 
+        run: |
           sudo apt install tox texlive-latex-extra texlive-xetex latexmk python3-pip fonts-freefont-ttf fonts-dejavu-core -y
+          sudo fc-cache -fv
       
       - name: Check Fonts
         run: |

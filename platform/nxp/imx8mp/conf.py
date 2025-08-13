@@ -82,10 +82,11 @@ latex_elements = {
     \usepackage{graphicx}   % 画图包
     \usepackage{tikz}
     \usepackage{xcolor}
-    \usepackage{geometry}
-       
+    \usepackage{geometry}       
 
     \setmainfont{DejaVu Serif}
+    \setsansfont{DejaVu Sans}
+    \setmonofont{DejaVu Sans Mono}
     
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
     

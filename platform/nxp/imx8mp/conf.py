@@ -73,6 +73,7 @@ False)
 ]
 
 latex_elements = {
+    'fontpkg': '\\usepackage{lmodern}',
     'classoptions': ',openany',     # 关闭新章节仅在奇数页
     'preamble': r'''
 

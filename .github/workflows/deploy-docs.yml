@@ -33,7 +33,7 @@ jobs:
           echo "Searching for FreeSerif.ttf file:"
           find /usr/share/fonts -name "FreeSerif.ttf" || echo "FreeSerif.ttf file NOT FOUND"
 
-          # 使用 fc-list 檢查 fontconfig 是否識別了 FreeSeriff
+          # 使用 fc-list 檢查 fontconfig 是否識別了 FreeSerif
           echo "Checking if 'FreeSerif' is recognized by fc-list:"
           fc-list | grep -i "FreeSerif" || echo "FreeSerif NOT recognized by fc-list"
 

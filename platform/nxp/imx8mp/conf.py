@@ -79,7 +79,7 @@ latex_elements = {
     % 依赖包
     \usepackage{fontspec}   % 自定义字体依赖包
     \usepackage{xeCJK}      % 中文字体，特殊字体包
-    \usepackage{graphicx}   % 画图包
+    \usepackage{graphicx}   % 画图包a
     \usepackage{tikz}
     \usepackage{xcolor}
     \usepackage{geometry}       

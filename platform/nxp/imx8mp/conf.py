@@ -75,20 +75,22 @@ False)
 latex_elements = {
     'classoptions': ',openany',     # 关闭新章节仅在奇数页
     'preamble': r'''
-    
-    \usepackage{fontspec}
-    \usepackage{xeCJK}
-    \usepackage{graphicx}
+
+    % 依赖包
+    \usepackage{fontspec}   % 自定义字体依赖包
+    \usepackage{xeCJK}      % 中文字体，特殊字体包
+    \usepackage{graphicx}   % 画图包
     \usepackage{tikz}
     \usepackage{xcolor}
-    \usepackage{geometry}
+    \usepackage{geometry}   
+
+    \setmainfont{DejaVu Serif}  % 设置主字体
+    \setCJKmainfont{SimSun}     % 中文或特殊字符字体
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
-
+    
     \setcounter{secnumdepth}{0}  % 关闭自动章节编号
-    \setcounter{tocdepth}{2}    % 目录层级
+    \setcounter{tocdepth}{2}     % 目录层级
     \renewcommand{\thechapter}{}
-
-    \setmainfont{DejaVu Serif}
 
     % 定义封面所需的命令（如果您的文档类需要）
     \makeatletter
@@ -98,13 +100,13 @@ latex_elements = {
     \makeatother
     ''',
 
+    # 自定义封面----------------------------------->
     'maketitle': r'''
+
     \begin{titlepage}
     \thispagestyle{empty}
-
-    % 定义封面蓝条颜色
-    \definecolor{forlinxblue}{RGB}{0, 102, 178}
-
+    
+    \definecolor{forlinxblue}{RGB}{0, 102, 178} % 定义封面蓝条颜色
     \begin{tikzpicture}[remember picture, overlay]
 
       % --- 左侧窄条 (上半部)：用于竖排文字
@@ -131,7 +133,7 @@ latex_elements = {
         at ([xshift=-2cm, yshift=-2cm]current page.north east) 
         {\includegraphics[width=6cm]{../../source/_static/logo.png}};
 
-      % --- 产品型号 ---
+      % --- 产品型号/文档标题 ---
       \node[anchor=north west, font=\huge\bfseries]
         at ([yshift=-10.5cm, xshift=2.1cm]current page.north west) 
         {\customtitle};
@@ -141,7 +143,7 @@ latex_elements = {
         at ([yshift=-11.5cm, xshift=2.1cm]current page.north west)
         {Embedded Development Platform};
 
-      % --- 文档标题 ---
+      % --- 文档类型 ---
       \node[anchor=north east, font=\LARGE\bfseries]
         at ([yshift=-15cm, xshift=-2cm]current page.north east)
         {\customauthor};

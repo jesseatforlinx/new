@@ -82,11 +82,12 @@ latex_elements = {
     \usepackage{graphicx}   % 画图包
     \usepackage{tikz}
     \usepackage{xcolor}
-    \usepackage{geometry}   
+    \usepackage{geometry}
+       
 
-    \setmainfont{DejaVu Serif}[
-  FallbackFonts = {Liberation Serif, Times New Roman}
-]
+    \setmainfont{DejaVu Serif}
+    \setotherlanguage{english}
+    \newfontfamily\englishfont{DejaVu Serif}]
     \setCJKmainfont{SimSun}     % 中文或特殊字符字体
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
     

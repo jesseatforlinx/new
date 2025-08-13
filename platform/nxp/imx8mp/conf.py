@@ -137,7 +137,7 @@ latex_elements = {
        % --- LOGO ---
       \node[anchor=north east] 
         at ([xshift=-2cm, yshift=-2cm]current page.north east) 
-        {\includegraphics[width=6cm]{_static/logo.png}};
+        {\includegraphics[width=6cm]{../../_static/logo.png}};
 
       % --- 产品型号/文档标题 ---
       \node[anchor=north west, font=\huge\bfseries]

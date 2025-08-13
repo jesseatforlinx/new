@@ -75,7 +75,8 @@ False)
 latex_elements = {
     'classoptions': ',openany',     # 关闭新章节仅在奇数页
     'preamble': r'''
-
+    
+    \usepackage{fontspec}
     \usepackage{xeCJK}
     \usepackage{graphicx}
     \usepackage{tikz}

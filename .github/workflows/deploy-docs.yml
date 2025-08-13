@@ -25,8 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt install tox texlive-latex-extra texlive-xetex latexmk python3-pip fonts-freefont-ttf fonts-dejavu-core fonts-noto-cjk -y
-          sudo fc-cache -fv
-          sudo luaotfload-tool --update --force
+          
       
       - name: Check Fonts
         run: |

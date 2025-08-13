@@ -27,7 +27,7 @@ jobs:
           sudo apt install tox texlive-latex-extra texlive-xetex latexmk python3-pip fonts-freefont-ttf -y
       
       - name: Check Fonts
-        run: 
+        run: |
           fc-cache -fv
           fc-list | grep "FreeSerif"   
 

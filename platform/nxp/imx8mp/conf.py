@@ -85,9 +85,8 @@ latex_elements = {
     \usepackage{xcolor}
     \usepackage{geometry}       
 
-    \setmainfont{DejaVu Serif}
-    \setsansfont{DejaVu Sans}
-    \setmonofont{DejaVu Sans Mono}
+    \setmainfont{Roboto}
+    
     % 設定中文字體
     \setCJKmainfont{Noto Serif CJK SC}
     \setCJKsansfont{Noto Sans CJK SC}

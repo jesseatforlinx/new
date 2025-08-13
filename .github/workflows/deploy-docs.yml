@@ -33,10 +33,10 @@ jobs:
           echo "Searching for FreeSerif.ttf file:"
           find /usr/share/fonts -name "FreeSerif.ttf" || echo "FreeSerif.ttf file NOT FOUND"
 
-          # 使用 fc-list 檢查 fontconfig 是否識別了 FreeSerif
+          # 使用 fc-list 檢查 fontconfig 是否識別了 FreeSeriff
           echo "Checking if 'FreeSerif' is recognized by fc-list:"
           fc-list | grep -i "FreeSerif" || echo "FreeSerif NOT recognized by fc-list"
-              
+
           echo "Checking if 'DejaVu Serif' is recognized by fc-list:"
           fc-list | grep -i "DejaVu Serif" || echo "DejaVu Serif NOT recognized by fc-list"
           echo "--- [DEBUG] Font verification finished ---"

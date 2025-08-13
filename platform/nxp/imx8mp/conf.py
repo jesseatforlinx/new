@@ -86,9 +86,7 @@ latex_elements = {
        
 
     \setmainfont{DejaVu Serif}
-    \setotherlanguage{english}
-    \newfontfamily\englishfont{DejaVu Serif}]
-    \setCJKmainfont{SimSun}     % 中文或特殊字符字体
+    
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
     
     \setcounter{secnumdepth}{0}  % 关闭自动章节编号

@@ -78,7 +78,8 @@ latex_elements = {
     'preamble': r'''
 
     % 依赖包
-    \usepackage[sfdefault,lf]{carlito}
+    \usepackage{fontspec}
+    \setsansfont{Carlito}
     \usepackage{xeCJK}      % 中文字体，特殊字体包
     \usepackage{graphicx}   % 画图包a
     \usepackage{tikz}

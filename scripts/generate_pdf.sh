@@ -1,18 +1,23 @@
-# 遍历所有平台目录
-for dir in platform/*/*; do
-  if [ -f "$dir/conf.py" ]; then
-    echo "Building PDF for $dir"
-    outdir="docs_build/${dir#platform/}"
+#!/usr/bin/env bash
+set -e
 
-    # 清空旧 PDF 构建目录
-    rm -rf "$dir/_build/latex"
+if [ ! -s changed_md_files.txt ]; then
+    echo "No markdown changes found, skip PDF generation."
+    exit 0
+fi
 
-    # 构建 PDF
-    sphinx-build -M latexpdf "$dir" "$dir/_build"
+# 遍历变更的 md 文件，定位对应目录
+while read -r file; do
+    dir=$(dirname "$file")
+    if [ -f "$dir/conf.py" ]; then
+        echo "Building PDF for $dir"
+        outdir="docs_build/${dir#platform/}"
 
-    # 找到生成的 PDF 并复制到 HTML 静态目录
-    mkdir -p "$outdir/_static"
-    cp "$dir/_build/latex"/*.pdf "$outdir/_static/"
-    echo "PDF copied to $outdir/_static"
-  fi
-done
+        rm -rf "$dir/_build/latex"
+        sphinx-build -M latexpdf "$dir" "$dir/_build"
+
+        mkdir -p "$outdir/_static"
+        cp "$dir/_build/latex"/*.pdf "$outdir/_static/"
+        echo "PDF copied to $outdir/_static"
+    fi
+done < changed_md_files.txt

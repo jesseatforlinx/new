@@ -27,13 +27,11 @@ jobs:
           sudo apt install -y \
           tox \
           texlive-latex-extra \
-          texlive-fonts-extra \
           texlive-xetex \
           latexmk \
           python3-pip \
           fonts-freefont-ttf \
           fonts-roboto \
-          fonts-noto-cjk \
           texlive-lang-chinese
                 
       - name: Process Markdown Images

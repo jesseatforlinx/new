@@ -84,8 +84,8 @@ latex_elements = {
     \usepackage{tikz}
     \usepackage{xcolor}
     \usepackage{geometry}       
-
-    \setmainfont{Source Sans Pro}
+    
+    \setmainfont{Carlito}
     
     % 設定中文字體
     \setCJKmainfont{Noto Serif CJK SC}

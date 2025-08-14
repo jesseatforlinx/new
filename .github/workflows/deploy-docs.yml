@@ -27,6 +27,7 @@ jobs:
           sudo apt install -y \
           tox \
           texlive-latex-extra \
+          texlive-fonts-extra \
           texlive-xetex \
           latexmk \
           python3-pip \

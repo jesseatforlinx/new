@@ -73,19 +73,18 @@ False)
 ]
 
 latex_elements = {
-    'fontpkg': '\\usepackage{Carlito}',
+    
     'classoptions': ',openany',     # 关闭新章节仅在奇数页
     'preamble': r'''
 
     % 依赖包
-    
+    \usepackage{fontspec}
+    \setmainfont{Carlito}
     \usepackage{xeCJK}      % 中文字体，特殊字体包
     \usepackage{graphicx}   % 画图包a
     \usepackage{tikz}
     \usepackage{xcolor}
-    \usepackage{geometry}       
-    
-    
+    \usepackage{geometry}     
         
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
     

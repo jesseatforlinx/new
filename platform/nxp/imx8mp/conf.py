@@ -78,13 +78,16 @@ latex_elements = {
     'preamble': r'''
 
     % 依赖包
-    \usepackage{fontspec}
-    \setmainfont{Carlito}
+    \usepackage{fontspec}   % 字体操作依赖包    
     \usepackage{xeCJK}      % 中文字体，特殊字体包
-    \usepackage{graphicx}   % 画图包a
+    \usepackage{graphicx}   % 画图包
     \usepackage{tikz}
     \usepackage{xcolor}
-    \usepackage{geometry}     
+    \usepackage{geometry}  
+
+    \setmainfont{Carlito}   % 设定主字体    
+    \setCJKmainfont{Noto Serif CJK SC} % 設定中文主字体
+    \setCJKsansfont{Noto Sans CJK SC}  % 设定中文衬线字体
         
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
     

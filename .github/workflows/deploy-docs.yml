@@ -30,7 +30,7 @@ jobs:
           texlive-xetex \
           latexmk \
           python3-pip \
-          fonts-freefont-ttf \          
+          fonts-freefont-ttf \
           texlive-lang-chinese
                 
       - name: Process Markdown Images

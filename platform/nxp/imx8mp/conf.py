@@ -78,19 +78,15 @@ latex_elements = {
     'preamble': r'''
 
     % 依赖包
-    \usepackage{fontspec}   % 自定义字体依赖包
+    \usepackage[sfdefault,lf]{carlito}
     \usepackage{xeCJK}      % 中文字体，特殊字体包
     \usepackage{graphicx}   % 画图包a
     \usepackage{tikz}
     \usepackage{xcolor}
     \usepackage{geometry}       
     
-    \setmainfont{Carlito}
     
-    % 設定中文字體
-    \setCJKmainfont{Noto Serif CJK SC}
-    \setCJKsansfont{Noto Sans CJK SC}
-    
+        
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
     
     \setcounter{secnumdepth}{0}  % 关闭自动章节编号

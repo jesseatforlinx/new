@@ -31,7 +31,6 @@ jobs:
           latexmk \
           python3-pip \
           fonts-freefont-ttf \
-          fonts-roboto \
           texlive-lang-chinese
                 
       - name: Process Markdown Images

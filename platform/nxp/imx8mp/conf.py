@@ -73,13 +73,12 @@ False)
 ]
 
 latex_elements = {
-    'fontpkg': '\\usepackage{lmodern}',
+    'fontpkg': '\\usepackage{Carlito}',
     'classoptions': ',openany',     # 关闭新章节仅在奇数页
     'preamble': r'''
 
     % 依赖包
-    \usepackage{fontspec}
-    \setsansfont{Carlito}
+    
     \usepackage{xeCJK}      % 中文字体，特殊字体包
     \usepackage{graphicx}   % 画图包a
     \usepackage{tikz}

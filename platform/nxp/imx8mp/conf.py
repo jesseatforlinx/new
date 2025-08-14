@@ -85,7 +85,7 @@ latex_elements = {
     \usepackage{xcolor}
     \usepackage{geometry}       
 
-    \setmainfont{Roboto Regular}
+    \setmainfont{Roboto}
     
     % 設定中文字體
     \setCJKmainfont{Noto Serif CJK SC}

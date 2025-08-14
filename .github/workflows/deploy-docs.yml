@@ -31,7 +31,7 @@ jobs:
           latexmk \
           python3-pip \
           fonts-freefont-ttf \
-          fonts-dejavu-core \
+          fonts-roboto \
           fonts-noto-cjk \
           texlive-lang-chinese
                 

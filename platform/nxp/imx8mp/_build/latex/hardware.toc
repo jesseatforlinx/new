@@ -1,6 +1,6 @@
 \xpginauxfiletrue 
 \selectlanguage *{english}
-\contentsline {chapter}{\numberline {}1. Overvieww}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {}1. Overview2}{1}{chapter.1}%
 \contentsline {section}{1.1 SoM Function Description}{1}{section*.3}%
 \contentsline {section}{1.2 i.MX8MP Series Processors！！！}{1}{section*.4}%
 \contentsline {chapter}{\numberline {}2. FET\sphinxhyphen {}MX8MPQ\sphinxhyphen {}SMARC Description}{3}{chapter.2}%

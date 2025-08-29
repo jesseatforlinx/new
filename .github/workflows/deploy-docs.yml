@@ -33,13 +33,16 @@ jobs:
           python3-pip \
           fonts-freefont-ttf \
           texlive-lang-chinese
-                
-      - name: Process Markdown Images
-        run: tox -e process_md_images
+      
+      - name: Detect Changed Markdown Files
+        run: tox -e detect_changed_md
         env:
           GITHUB_EVENT_BEFORE: ${{ github.event.before }}
           GITHUB_SHA: ${{ github.sha }}
-        
+                
+      - name: Process Markdown Images
+        run: tox -e process_md_images
+               
       - name: Build HTML
         run: tox -e html
 

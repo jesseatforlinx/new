@@ -93,5 +93,13 @@ def main():
         else:
             print(f"Warning: {md} does not exist")
 
+def insert_pdf_link(md_path: Path):
+    base = md_path.stem
+    pdf_link = f"\n\n[📄 Download PDF](_static/{base}.pdf)\n\n"
+    content = md_path.read_text(encoding="utf-8")
+    if "[📄 下载此文档 PDF]" not in content:
+        md_path.write_text(pdf_link + content, encoding="utf-8")
+
+
 if __name__ == "__main__":
     main()

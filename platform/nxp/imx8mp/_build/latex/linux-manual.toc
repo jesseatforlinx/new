@@ -1,0 +1,106 @@
+\xpginauxfiletrue 
+\selectlanguage *{english}
+\contentsline {chapter}{\numberline {}1. Development Board Description你好aaaa3333f}{1}{chapter.1}%
+\contentsline {section}{1.1 OK\sphinxhyphen {}MX8MPQ\sphinxhyphen {}SMARC Development Board Description}{1}{section*.3}%
+\contentsline {section}{1.2 Introduction to Linux 6.1.36 System Software Resources}{2}{section*.4}%
+\contentsline {section}{1.3 Flashing and Boot Settings}{2}{section*.5}%
+\contentsline {chapter}{\numberline {}2. Fast Startup}{3}{chapter.2}%
+\contentsline {section}{2.1 Preparation Before Startup}{3}{section*.6}%
+\contentsline {section}{2.2 Serial Login}{4}{section*.7}%
+\contentsline {subsection}{2.2.1 Serial Login}{4}{subsection*.8}%
+\contentsline {subsection}{2.2.2 Serial Login Common Problems}{6}{subsection*.9}%
+\contentsline {section}{2.3 Network Login Methods}{6}{section*.10}%
+\contentsline {subsection}{2.3.1 Network Connection Test}{6}{subsection*.11}%
+\contentsline {subsection}{2.3.2 SSH server}{7}{subsection*.12}%
+\contentsline {section}{2.4 System Partition}{10}{section*.13}%
+\contentsline {subsection}{2.4.1 eMMC Version}{10}{subsection*.14}%
+\contentsline {section}{2.5 System Shutdown}{11}{section*.15}%
+\contentsline {chapter}{\numberline {}3. Platform Interface Function Use and Test}{12}{chapter.3}%
+\contentsline {section}{3.1 Introduction to Interface Function}{13}{section*.16}%
+\contentsline {section}{3.2 Network Configuration Test}{13}{section*.17}%
+\contentsline {section}{3.3 OpenGL Test}{15}{section*.18}%
+\contentsline {section}{3.4 4G/5G Test}{16}{section*.19}%
+\contentsline {section}{3.5 UART Test}{18}{section*.20}%
+\contentsline {section}{3.6 WIFI Test}{20}{section*.21}%
+\contentsline {section}{3.7 RTC Test}{21}{section*.22}%
+\contentsline {section}{3.8 Watchdog Test}{22}{section*.23}%
+\contentsline {section}{3.9 Ping Test}{23}{section*.24}%
+\contentsline {section}{3.10 Camera Test}{25}{section*.25}%
+\contentsline {section}{3.11 Backlight Test}{26}{section*.26}%
+\contentsline {section}{3.12 Play/Record Test}{27}{section*.27}%
+\contentsline {section}{3.13 Music Play Test}{28}{section*.28}%
+\contentsline {section}{3.14 Qml Video Playback Test}{29}{section*.29}%
+\contentsline {section}{3.15 Browser Test}{31}{section*.30}%
+\contentsline {chapter}{\numberline {}4. Command Line Tool Application and Test}{33}{chapter.4}%
+\contentsline {section}{4.1 System Information Query}{33}{section*.31}%
+\contentsline {section}{4.2 Frequency Test}{34}{section*.32}%
+\contentsline {section}{4.3 Temperature Test}{35}{section*.33}%
+\contentsline {section}{4.4 DDR Bandwidth Test:}{35}{section*.34}%
+\contentsline {section}{4.5 Watchdog Test}{36}{section*.35}%
+\contentsline {section}{4.6 RTC Function Test}{36}{section*.36}%
+\contentsline {section}{4.7 UART Test}{36}{section*.37}%
+\contentsline {section}{4.8 PCIE}{37}{section*.38}%
+\contentsline {section}{4.9 TF Test}{37}{section*.39}%
+\contentsline {section}{4.10 EMMC Test}{38}{section*.40}%
+\contentsline {section}{4.11 USB}{38}{section*.41}%
+\contentsline {subsection}{4.11.1 USB2.0}{39}{subsection*.42}%
+\contentsline {subsection}{4.11.2 USB3.0}{40}{subsection*.43}%
+\contentsline {subsection}{4.11.3 Micro\sphinxhyphen {}USB}{41}{subsection*.44}%
+\contentsline {section}{4.12 Ethernet Configuration}{42}{section*.45}%
+\contentsline {subsection}{4.12.1 Gigabit Ethernet Static IP Configuration}{42}{subsection*.46}%
+\contentsline {subsection}{4.12.2 Ethernet Speed Test}{42}{subsection*.47}%
+\contentsline {section}{4.13 Network Services}{44}{section*.48}%
+\contentsline {subsection}{4.13.1 Web Services}{44}{subsection*.49}%
+\contentsline {subsection}{4.13.2 SFTP}{44}{subsection*.50}%
+\contentsline {section}{4.14 WIFI Bluetooth Test}{44}{section*.51}%
+\contentsline {subsection}{4.14.1 WIFI STA Mode}{45}{subsection*.52}%
+\contentsline {subsection}{4.14.2 WIFI AP Mode}{46}{subsection*.53}%
+\contentsline {subsection}{4.14.3 Bluetooth Test}{46}{subsection*.54}%
+\contentsline {section}{4.15 4G/5G Test}{50}{section*.55}%
+\contentsline {section}{4.16 Play/Record Test}{51}{section*.56}%
+\contentsline {section}{4.17 Closing the Desktop}{52}{section*.57}%
+\contentsline {section}{4.18 LED Test}{52}{section*.58}%
+\contentsline {section}{4.19 SQLite3 Test}{53}{section*.59}%
+\contentsline {section}{4.20 PWM Test}{53}{section*.60}%
+\contentsline {subsection}{4.20.1 Screen Backlight Test}{53}{subsection*.61}%
+\contentsline {section}{4.21 CAN Test}{54}{section*.62}%
+\contentsline {subsection}{4.21.1 CAN Test}{54}{subsection*.63}%
+\contentsline {subsection}{4.21.2 Other Common Commands}{55}{subsection*.64}%
+\contentsline {section}{4.22 SPI Test}{56}{section*.65}%
+\contentsline {section}{4.23 GPIO}{57}{section*.66}%
+\contentsline {section}{4.24 Sleep Wake\sphinxhyphen {}up Test}{58}{section*.67}%
+\contentsline {section}{4.25 IPv6 Test}{59}{section*.68}%
+\contentsline {chapter}{\numberline {}5. Multimedia Test}{60}{chapter.5}%
+\contentsline {section}{5.1 Audio and Video Playback}{60}{section*.69}%
+\contentsline {section}{5.2 Video Hardware Encoding}{61}{section*.70}%
+\contentsline {section}{5.3 Video Hardware Decoding}{61}{section*.71}%
+\contentsline {section}{5.4 Video Conversion (Color Space Conversion and Rotation Scaling)}{62}{section*.72}%
+\contentsline {section}{5.5 Video Compositing}{63}{section*.73}%
+\contentsline {section}{5.6 NPU Test}{64}{section*.74}%
+\contentsline {section}{5.7 Camera Test}{65}{section*.75}%
+\contentsline {subsection}{5.7.1 USB Camera Test}{65}{subsection*.76}%
+\contentsline {subsection}{5.7.2 OV5645 Test}{67}{subsection*.77}%
+\contentsline {subsection}{5.7.3 BASLER CAMERA Test}{70}{subsection*.78}%
+\contentsline {chapter}{\numberline {}6. System Settings}{73}{chapter.6}%
+\contentsline {section}{6.1 Updating Logo}{73}{section*.79}%
+\contentsline {section}{6.2 Self\sphinxhyphen {}starting Program Settings}{73}{section*.80}%
+\contentsline {section}{6.3 EEPROM Test}{73}{section*.81}%
+\contentsline {section}{6.4 Starting the Watchdog Under Uboot}{73}{section*.82}%
+\contentsline {section}{6.5 Kernel and Device Tree Loading via Uboot}{74}{section*.83}%
+\contentsline {section}{6.6 Display Settings}{75}{section*.84}%
+\contentsline {subsection}{6.6.1 Dual LVDS Display Configuration}{75}{subsection*.85}%
+\contentsline {section}{6.7 Separate Compilation of U\sphinxhyphen {}Boot and Kernel}{75}{section*.86}%
+\contentsline {chapter}{\numberline {}7. System Flashing}{76}{chapter.7}%
+\contentsline {section}{7.1 Image Required for Flashing}{76}{section*.87}%
+\contentsline {section}{7.2 Flashing U\sphinxhyphen {}Boot via USB}{76}{section*.88}%
+\contentsline {subsection}{7.2.1 Flashing Uboot to eMMC.}{76}{subsection*.89}%
+\contentsline {subsection}{7.2.2 Flashing Uboot to SD}{77}{subsection*.90}%
+\contentsline {subsection}{7.2.3 Flashing Uboot to QSPIFLASH}{77}{subsection*.91}%
+\contentsline {section}{7.3 Flashing the File System via USB}{78}{section*.92}%
+\contentsline {section}{7.4 Flashing Uboot in File System}{78}{section*.93}%
+\contentsline {subsection}{7.4.1 Flashing Uboot to SPIFLASH}{78}{subsection*.94}%
+\contentsline {section}{7.5 Flashing via TF Card}{78}{section*.95}%
+\contentsline {subsection}{7.5.1 Making Flashing Card}{78}{subsection*.96}%
+\contentsline {subsection}{7.5.2 Copying the Required Image to The Flashing Card}{79}{subsection*.97}%
+\contentsline {subsection}{7.5.3 Flashing EMMC With TF Card}{79}{subsection*.98}%
+\xpginauxfilefalse 

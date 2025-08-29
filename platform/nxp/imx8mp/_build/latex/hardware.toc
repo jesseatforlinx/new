@@ -1,0 +1,144 @@
+\xpginauxfiletrue 
+\selectlanguage *{english}
+\contentsline {chapter}{\numberline {}1. Overvieww}{1}{chapter.1}%
+\contentsline {section}{1.1 SoM Function Description}{1}{section*.3}%
+\contentsline {section}{1.2 i.MX8MP Series Processors！！！}{1}{section*.4}%
+\contentsline {chapter}{\numberline {}2. FET\sphinxhyphen {}MX8MPQ\sphinxhyphen {}SMARC Description}{3}{chapter.2}%
+\contentsline {section}{2.1 SoM Appearance}{3}{section*.5}%
+\contentsline {section}{2.2 Technical Specifications}{4}{section*.6}%
+\contentsline {section}{2.3 FET\sphinxhyphen {}MX8MPQ\sphinxhyphen {}SMARC Module Structure}{6}{section*.7}%
+\contentsline {section}{2.4 FET\sphinxhyphen {}MX8MPQ\sphinxhyphen {}SMARC Block Diagram}{9}{section*.8}%
+\contentsline {chapter}{\numberline {}3. FET\sphinxhyphen {}MX8MPQ\sphinxhyphen {}SMARC Interface Description}{11}{chapter.3}%
+\contentsline {section}{3.1 SoM Connector}{11}{section*.9}%
+\contentsline {subsection}{3.1.1 Golden\sphinxhyphen {}finger}{11}{subsection*.10}%
+\contentsline {subsection}{3.1.2 MXM 3.0 Connector}{11}{subsection*.11}%
+\contentsline {subsection}{3.1.3 Wi\sphinxhyphen {}Fi \& BT Antenna Connector}{12}{subsection*.12}%
+\contentsline {subsection}{3.1.4 JTAG Connector}{13}{subsection*.13}%
+\contentsline {section}{3.2 FET\sphinxhyphen {}MX8MPx\sphinxhyphen {}SMARC Connector Pin Out}{14}{section*.14}%
+\contentsline {subsection}{3.2.1 SMARC P\sphinxhyphen {}PIN Connector Output List}{14}{subsection*.15}%
+\contentsline {subsection}{3.2.2 SMARC S\sphinxhyphen {}PIN Connector Pin Out List}{17}{subsection*.16}%
+\contentsline {chapter}{\numberline {}4. Hardware Interface}{21}{chapter.4}%
+\contentsline {section}{4.1 HDMI}{21}{section*.17}%
+\contentsline {subsection}{4.1.1 HDMI TX Controller}{21}{subsection*.18}%
+\contentsline {subsection}{4.1.2 HDMI TX PHY}{21}{subsection*.19}%
+\contentsline {subsection}{4.1.3 HDMI External Signal}{21}{subsection*.20}%
+\contentsline {section}{4.2 LVDS Interface}{22}{section*.21}%
+\contentsline {subsection}{4.2.1 Overview}{22}{subsection*.22}%
+\contentsline {subsection}{4.2.2 Features}{22}{subsection*.23}%
+\contentsline {subsection}{4.2.3 SoM Function Description}{22}{subsection*.24}%
+\contentsline {subsection}{4.2.4 LVDS External Signal}{23}{subsection*.25}%
+\contentsline {section}{4.3 MIPI Interface}{23}{section*.26}%
+\contentsline {subsection}{4.3.1 Overview}{23}{subsection*.27}%
+\contentsline {subsection}{4.3.2 Block Diagram}{24}{subsection*.28}%
+\contentsline {subsection}{4.3.3 Features}{24}{subsection*.29}%
+\contentsline {subsection}{4.3.4 MIPI DSI External Signal}{24}{subsection*.30}%
+\contentsline {section}{4.4 MIPI CSI}{24}{section*.31}%
+\contentsline {subsection}{4.4.1 Overview}{24}{subsection*.32}%
+\contentsline {subsection}{4.4.2 Features}{24}{subsection*.33}%
+\contentsline {subsection}{4.4.3 MIPI CSI External Signal}{25}{subsection*.34}%
+\contentsline {section}{4.5 Audio}{25}{section*.35}%
+\contentsline {subsection}{4.5.1 SAI Overview}{25}{subsection*.36}%
+\contentsline {subsection}{4.5.2 Features}{25}{subsection*.37}%
+\contentsline {subsection}{4.5.3 I2S External Signal}{26}{subsection*.38}%
+\contentsline {section}{4.6 PCIe}{26}{section*.39}%
+\contentsline {subsection}{4.6.1 Overview}{26}{subsection*.40}%
+\contentsline {subsection}{4.6.2 Features}{26}{subsection*.41}%
+\contentsline {subsection}{4.6.3 PCIe x 1 External Signal}{26}{subsection*.42}%
+\contentsline {section}{4.7 Ethernet}{27}{section*.43}%
+\contentsline {subsection}{4.7.1 Overview}{27}{subsection*.44}%
+\contentsline {subsection}{4.7.2 Ethernet External Signal}{27}{subsection*.45}%
+\contentsline {section}{4.8 USB}{27}{section*.46}%
+\contentsline {subsection}{4.8.1 Overview}{27}{subsection*.47}%
+\contentsline {subsection}{4.8.2 Features}{28}{subsection*.48}%
+\contentsline {subsection}{4.8.3 USB External Signal}{28}{subsection*.49}%
+\contentsline {section}{4.9 UART}{29}{section*.50}%
+\contentsline {subsection}{4.9.1 Overview}{29}{subsection*.51}%
+\contentsline {subsection}{4.9.2 Features}{29}{subsection*.52}%
+\contentsline {subsection}{4.9.3 UART External Signal}{29}{subsection*.53}%
+\contentsline {section}{4.10 FlexCAN}{30}{section*.54}%
+\contentsline {subsection}{4.10.1 Overview}{30}{subsection*.55}%
+\contentsline {subsection}{4.10.2 Features}{30}{subsection*.56}%
+\contentsline {subsection}{4.10.3 FlexCAN External Signals}{30}{subsection*.57}%
+\contentsline {section}{4.11 uSDHC}{30}{section*.58}%
+\contentsline {subsection}{4.11.1 Overview}{30}{subsection*.59}%
+\contentsline {subsection}{4.11.2 Features}{31}{subsection*.60}%
+\contentsline {section}{4.12 uSDHC External Signal}{31}{section*.61}%
+\contentsline {section}{4.13 I2C}{31}{section*.62}%
+\contentsline {subsection}{4.13.1 Overview}{31}{subsection*.63}%
+\contentsline {subsection}{4.13.2 Features}{31}{subsection*.64}%
+\contentsline {subsection}{4.13.3 I2C External Signal}{32}{subsection*.65}%
+\contentsline {section}{4.14 ECSPI \& FlexSPI}{32}{section*.66}%
+\contentsline {subsection}{4.14.1 Overview}{32}{subsection*.67}%
+\contentsline {subsection}{4.14.2 ECSPI Features}{32}{subsection*.68}%
+\contentsline {subsection}{4.14.3 FlexSPI Overview}{33}{subsection*.69}%
+\contentsline {subsection}{4.14.4 FlexSPI Features}{33}{subsection*.70}%
+\contentsline {subsection}{4.14.5 FlexSPI External Signals}{33}{subsection*.71}%
+\contentsline {section}{4.15 PWM}{33}{section*.72}%
+\contentsline {subsection}{4.15.1 Overview}{33}{subsection*.73}%
+\contentsline {subsection}{4.15.2 Features}{34}{subsection*.74}%
+\contentsline {subsection}{4.15.3 PWM External Signal}{34}{subsection*.75}%
+\contentsline {section}{4.16 GPIO}{34}{section*.76}%
+\contentsline {subsection}{4.16.1 GPIO Signals}{34}{subsection*.77}%
+\contentsline {section}{4.17 Management IO}{34}{section*.78}%
+\contentsline {subsection}{4.17.1 IO External Signal Management}{34}{subsection*.79}%
+\contentsline {section}{4.18 JTAG}{35}{section*.80}%
+\contentsline {subsection}{4.18.1 Overview}{35}{subsection*.81}%
+\contentsline {subsection}{4.18.2 JTAG External Signals}{35}{subsection*.82}%
+\contentsline {section}{4.19 RTC}{35}{section*.83}%
+\contentsline {subsection}{4.19.1 Overview}{35}{subsection*.84}%
+\contentsline {subsection}{4.19.2 Features}{35}{subsection*.85}%
+\contentsline {subsection}{4.19.3 RTC Power}{36}{subsection*.86}%
+\contentsline {section}{4.20 Wi\sphinxhyphen {}Fi \& BT}{36}{section*.87}%
+\contentsline {section}{4.21 Power Supply}{37}{section*.88}%
+\contentsline {subsection}{4.21.1 Power Signals}{37}{subsection*.89}%
+\contentsline {section}{4.22 General System Control}{37}{section*.90}%
+\contentsline {subsection}{4.22. 1 General System Control Signals}{37}{subsection*.91}%
+\contentsline {subsection}{4.22.2 Boot Configuration}{38}{subsection*.92}%
+\contentsline {chapter}{\numberline {}5. SoC to Connector Pin Fan\sphinxhyphen {}out}{39}{chapter.5}%
+\contentsline {chapter}{\numberline {}6. Power Consumption of the Whole Development Board}{46}{chapter.6}%
+\contentsline {chapter}{\numberline {}7. Environmental Specification}{47}{chapter.7}%
+\contentsline {chapter}{\numberline {}8. OK\sphinxhyphen {}MX8MPQ\sphinxhyphen {}SMARC Development Board Description}{48}{chapter.8}%
+\contentsline {section}{8.1 Development Board Interface Diagram}{48}{section*.93}%
+\contentsline {section}{8.2 Development Board Dimension}{49}{section*.94}%
+\contentsline {section}{8.3 Development Board Naming Rules}{50}{section*.95}%
+\contentsline {section}{8.4 Development Board Resources}{50}{section*.96}%
+\contentsline {section}{8.5 Development Board Resources Block Diagram}{52}{section*.97}%
+\contentsline {chapter}{\numberline {}9. OK\sphinxhyphen {}MX8MPQ\sphinxhyphen {}SMARC Schematic Diagram}{53}{chapter.9}%
+\contentsline {section}{9.1 Development Board Power}{53}{section*.98}%
+\contentsline {subsection}{9.1.1 Power Connector Pin Description}{55}{subsection*.99}%
+\contentsline {section}{9.2 Control Key}{55}{section*.100}%
+\contentsline {section}{9.3 Boot Configuration}{57}{section*.101}%
+\contentsline {section}{9.4 Debugging Serial Port}{58}{section*.102}%
+\contentsline {subsection}{9.4.1 Debug Connector Pin Description}{58}{subsection*.103}%
+\contentsline {section}{9.5 USB 3.0}{59}{section*.104}%
+\contentsline {subsection}{9.5.1 USB3.0 Connector Pin Description}{60}{subsection*.105}%
+\contentsline {section}{9.6 USB2.0}{61}{section*.106}%
+\contentsline {subsection}{9.6.1 USB2.0 Connector Pin Description}{63}{subsection*.107}%
+\contentsline {section}{9.7 USB2.0 OTG}{64}{section*.108}%
+\contentsline {section}{9.8 4G/ 5G Module}{66}{section*.109}%
+\contentsline {section}{9.9 Gigabit Network Port}{67}{section*.110}%
+\contentsline {subsection}{9.9.1 Gigabit Ethernet RJ45 Connector}{69}{subsection*.111}%
+\contentsline {section}{9.10 Audio}{70}{section*.112}%
+\contentsline {subsection}{9.10.1 Audio Connector Pin Description}{71}{subsection*.113}%
+\contentsline {section}{9.11 RTC}{72}{section*.114}%
+\contentsline {section}{9.12 LVDS}{72}{section*.115}%
+\contentsline {subsection}{9.12.1 LVDS Connector Pin Description}{72}{subsection*.116}%
+\contentsline {section}{9.13 MIPI DSI \& LVDS}{73}{section*.117}%
+\contentsline {subsection}{9.13.1 MIPI DSI \& LVDS Connector Pin Description}{75}{subsection*.118}%
+\contentsline {section}{9.14×MIPI CSI}{77}{section*.119}%
+\contentsline {subsection}{9.14.1 MIPI CS Connector Pin Description}{78}{subsection*.120}%
+\contentsline {section}{9.15 PCIe x 1}{80}{section*.121}%
+\contentsline {subsection}{9.15.1 PCIe x1 Connector Pin Description}{81}{subsection*.122}%
+\contentsline {section}{9.16 CANFD \& RS485}{82}{section*.123}%
+\contentsline {subsection}{9.16.1 CANFD \& RS485 Connector Pin Description}{83}{subsection*.124}%
+\contentsline {section}{9.17 HDMI}{84}{section*.125}%
+\contentsline {subsection}{9.17.1 HDMI Connector Pin Description}{85}{subsection*.126}%
+\contentsline {section}{9.18 TF CARD}{85}{section*.127}%
+\contentsline {subsection}{9.18.1 TF Card Connector Pin Description}{86}{subsection*.128}%
+\contentsline {section}{9.19 QSPI \& SPI}{86}{section*.129}%
+\contentsline {section}{9.20 PWM}{87}{section*.130}%
+\contentsline {subsection}{9.21 I/O expand}{88}{subsection*.131}%
+\contentsline {section}{9.22 FAN}{89}{section*.132}%
+\contentsline {chapter}{\numberline {}10. OK\sphinxhyphen {}MX8MPQ\sphinxhyphen {}SMARC Hardware Design Guide}{90}{chapter.10}%
+\contentsline {chapter}{\numberline {}11. Connector Dimension Diagram}{92}{chapter.11}%
+\xpginauxfilefalse 

@@ -36,6 +36,9 @@ jobs:
                 
       - name: Process Markdown Images
         run: tox -e process_md_images
+        env:
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+          GITHUB_SHA: ${{ github.sha }}
         
       - name: Build HTML
         run: tox -e html

@@ -86,8 +86,9 @@ latex_elements = {
     \usepackage{geometry}  
 
     \setmainfont{Carlito}   % 设定主字体    
-    \setCJKmainfont{Noto Serif CJK SC} % 設定中文主字体
-    \setCJKsansfont{Noto Sans CJK SC}  % 设定中文衬线字体
+    \setCJKmainfont{AR PL UMing CN}
+    \setCJKsansfont{AR PL UMing CN}
+    \setCJKmonofont{AR PL UMing CN}
         
     \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
     

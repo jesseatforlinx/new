@@ -1,1 +1,1 @@
-platform/nxp/imx8mp/hardware.md
+

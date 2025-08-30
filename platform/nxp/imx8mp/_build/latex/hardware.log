@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.8.29)  29 AUG 2025 07:58
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.8.29)  29 AUG 2025 08:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2047,7 +2047,7 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `hardware.out' has not changed.
-(rerunfilecheck)             Checksum: 872B95232777CC395B3416F456C251EE;25041.
+(rerunfilecheck)             Checksum: 4CD01147F54BAA4D6AEFE77DB7AE7DB6;25041.
  ) 
 Here is how much of TeX's memory you used:
  33304 strings out of 476443

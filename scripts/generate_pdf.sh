@@ -6,18 +6,30 @@ if [ ! -s changed_md_files.txt ]; then
     exit 0
 fi
 
-# 遍历变更的 md 文件，定位对应目录
 while read -r file; do
     dir=$(dirname "$file")
+    base=$(basename "$file" .md)
+
     if [ -f "$dir/conf.py" ]; then
-        echo "Building PDF for $dir"
+        echo "Building PDF for $file"
+
         outdir="docs_build/${dir#platform/}"
+        builddir="$dir/_build"
 
-        rm -rf "$dir/_build/latex"
-        sphinx-build -M latexpdf "$dir" "$dir/_build"
+        # 清理旧构建
+        rm -rf "$builddir/latex"
+        sphinx-build -M latexpdf "$dir" "$builddir"
 
-        mkdir -p "$outdir/_static"
-        cp "$dir/_build/latex"/*.pdf "$outdir/_static/"
-        echo "PDF copied to $outdir/_static"
+        pdf_out="$builddir/latex"/*.pdf
+        if [ -f $pdf_out ]; then
+            mkdir -p "$outdir/_static"
+            # 复制并重命名为 {md文件名}.pdf
+            cp "$pdf_out" "$outdir/_static/${base}.pdf"
+            echo "PDF copied to $outdir/_static/${base}.pdf"
+        else
+            echo "⚠️ No PDF generated for $file"
+        fi
+    else
+        echo "⚠️ No conf.py found for $dir"
     fi
 done < changed_md_files.txt

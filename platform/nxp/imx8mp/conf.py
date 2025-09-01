@@ -171,23 +171,4 @@ latex_elements = {
     '''
 }
 
-def setup(app):
-    def add_pdf_url(app, pagename, templatename, context, doctree):
-        """
-        pagename 例如 'guide/getting-started'，基名就是 'getting-started'
-        我们约定生成的 pdf 名 = 基名 + '.pdf' 并放在 <outdir>/_static 下
-        """
-        base = os.path.basename(pagename)  # 'getting-started'
-        pdf_rel_in_outdir = f"_static/{base}.pdf"
-
-        # 只有当构建输出目录里真的存在该 PDF 时，才暴露 pdf_url
-        pdf_abs = os.path.join(app.builder.outdir, pdf_rel_in_outdir)
-        if os.path.exists(pdf_abs):
-            # 计算“从当前页面到该 PDF”的正确相对路径
-            rel = app.builder.get_relative_uri(pagename, pdf_rel_in_outdir)
-            context['pdf_url'] = rel
-        else:
-            context['pdf_url'] = None
-
-    app.connect("html-page-context", add_pdf_url)
 

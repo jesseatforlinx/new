@@ -1,4 +1,4 @@
-﻿# OK-MX8MPQ-SMARC_User's Hardware Manual_V1.0
+﻿# OK-MX8MPQ-SMARC User Hardware Manual V1.0
 
 ## 1. Overviewq
 
